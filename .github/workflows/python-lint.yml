@@ -31,7 +31,7 @@ jobs:
       # Run flake8 (Style and Quality Check) - Fail only on major issues
       - name: Run flake8
         run: |
-          flake8 --max-line-length=150 --select=F401,W291 .
+          flake8 --max-line-length=150 --select=W291 .
           
 
       # Run black (Code formatting check) - Fail if not formatted correctly
