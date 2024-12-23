@@ -4,12 +4,12 @@ from diagrams import Diagram, Cluster, Edge, Node
 from diagrams.onprem.client import Users
 from diagrams.custom import Custom
 from diagrams.aws.analytics import ManagedStreamingForKafka
-from diagrams.aws.analytics import EMR
+# from diagrams.aws.analytics
 from diagrams.aws.compute import EC2, EC2Instances
 from diagrams.aws.database import DDB
 from diagrams.aws.storage import S3
 from diagrams.aws.network import ElbApplicationLoadBalancer
-from diagrams.aws.network import CloudFront, CF
+from diagrams.aws.network import CloudFront
 from diagrams.aws.network import Route53
 from diagrams.aws.compute import ECS
 
